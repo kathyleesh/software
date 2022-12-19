@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RegisterTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-12-07T04:42:40" hostname="192.168.nate.com" time="0.039">
+  <properties/>
+  <testcase name="enterItemTest()" classname="RegisterTest" time="0.018"/>
+  <testcase name="makePaymentTest()" classname="RegisterTest" time="0.001"/>
+  <testcase name="makeNewSaleTest()" classname="RegisterTest" time="0.001"/>
+  <testcase name="endSaleTest()" classname="RegisterTest" time="0.001"/>
+  <testcase name="receipt()" classname="RegisterTest" time="0.015"/>
+  <system-out><![CDATA[-------------------receipt-------------------
+||   ItemID   ||   ItemName   ||   Price   ||
+      100           item1         1000 AUD
+      200           item2         1000 AUD
+==============================================
+     Total                       20000 AUD
+     Payment                     30000 AUD
+     Balance                     10000 AUD
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
